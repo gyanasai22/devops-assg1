@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    image: app
+    build: .
+    ports:
+      - "443:443"
+      - "80:443"
+
